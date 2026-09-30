@@ -1,0 +1,12 @@
+{
+  "name": "@opencircuitlabs/debug-probe-protocol",
+  "version": "1.0.0",
+  "description": "CMSIS-DAP packet codecs and reliable SWD register/block sessions",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": { "dap-tool": "src/cli.js" },
+  "scripts": { "test": "node --test", "check": "npm test" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
